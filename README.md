@@ -8,6 +8,10 @@ Simply download the files in this repository and place it somewhere into a serve
 ## Configuration
 Have a look at the config.php. it is commented and should be self-explanatory.
 
+## Dependencies
+https://github.com/DynamsoftRD/HTML5-Photo-Upload
+http://fotorama.io/
+
 ## ToDo
 - add download as zip
 - change formatting of buttons and missing text for screen size variations
