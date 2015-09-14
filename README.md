@@ -1,3 +1,5 @@
+**based on [HTML5-Photo-Upload](https://github.com/DynamsoftRD/HTML5-Photo-Upload) and [Fotorama](http://fotorama.io/) as gallery** 
+
 # NoFrillsPhotoSharing
 For a private event I required a quick and easy solution to collect the photos the guests took with their smartphones.
 I tested a few apps, but not all are available for all platforms, some do require a registration (even for the guest) or involve (significant) cost.
@@ -20,10 +22,6 @@ It is commented and should be pretty self-explanatory.
 If configured, enter password, try the buttons.
 It's straight-forward.
 - Call <directory>/php/slideshow.php for a slideshow of full-resolution uploads.
-
-## References
-- partially based on: https://github.com/DynamsoftRD/HTML5-Photo-Upload
-- uses http://fotorama.io/ as gallery
 
 ## ToDo
 - add download as zip
