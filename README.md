@@ -11,7 +11,7 @@ This project is still heavily under development.
 The minimal set of functions is functional, however.
 
 ## Installation
-Simply download the files in this repository and place it somewhere into a serveable directory (<directory>) in your PHP server.
+Simply download the files in this repository and place it somewhere into a serveable directory in your PHP server.
 
 ## Configuration
 Have a look at the config.php.
@@ -21,7 +21,7 @@ It is commented and should be pretty self-explanatory.
 - Open your web browser and browse to the folder where you placed your files.
 If configured, enter password, try the buttons.
 It's straight-forward.
-- Call <directory>/php/slideshow.php for a slideshow of full-resolution uploads.
+- Call subdirectory /php/slideshow.php for a slideshow of full-resolution uploads.
 
 ## ToDo
 - add download as zip
