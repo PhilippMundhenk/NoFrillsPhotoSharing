@@ -6,7 +6,7 @@ To ensure that not the whole world has access, I added some simple password prot
 
 ## work in progress!
 This project is still heavily under development.
-The minimal set of functions however is functional.
+The minimal set of functions is functional, however.
 
 ## Installation
 Simply download the files in this repository and place it somewhere into a serveable directory (<directory>) in your PHP server.
