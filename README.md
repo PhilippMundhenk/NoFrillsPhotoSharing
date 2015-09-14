@@ -16,9 +16,8 @@ Have a look at the config.php.
 It is commented and should be pretty self-explanatory.
 
 ## Dependencies
-https://github.com/DynamsoftRD/HTML5-Photo-Upload
-
-http://fotorama.io/
+- partially based on: https://github.com/DynamsoftRD/HTML5-Photo-Upload
+- uses http://fotorama.io/ as gallery
 
 ## ToDo
 - add download as zip
