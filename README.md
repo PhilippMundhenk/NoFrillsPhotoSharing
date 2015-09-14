@@ -21,7 +21,7 @@ If configured, enter password, try the buttons.
 It's straight-forward.
 - Call <directory>/php/slideshow.php for a slideshow of full-resolution uploads.
 
-## Dependencies
+## References
 - partially based on: https://github.com/DynamsoftRD/HTML5-Photo-Upload
 - uses http://fotorama.io/ as gallery
 
