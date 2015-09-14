@@ -7,7 +7,6 @@
   background-position:left top;  padding-left:15px;
 }
 .titleLine {
-  font-family: "Pinyon Script";
   color: rgb(0,0,255);
   font-weight: 700;
   font-size: 1.700rem;
@@ -40,21 +39,17 @@
   vertical-align:middle;
 }
 .uploadText {
-  /*font-family: "Pinyon Script";*/
   color: rgb(255,255,255);
   font-weight: 700;
   font-size: 1.000rem;
   font-style: normal;
-  /*text-decoration: underline;*/
   margin: 10px 0px; 
 }
 .progress {
-  /*font-family: "Pinyon Script";*/
   color: rgb(255,0,0);
   font-weight: 700;
   font-size: 1.000rem;
   font-style: normal;
-  /*text-decoration: underline;*/
   margin: 10px 0px;
   text-align: center;
 }
@@ -95,25 +90,17 @@ form {
   font-size: 8rem;
   font-size: 6vmin;
   font-style: normal;
-  /*text-decoration: underline;*/
   margin: 10px 0px; 
 }
 .loginIcon {
-  /*height:auto;
-  width:5%;*/
   vertical-align: middle;
   padding:0px 5px;
-  /*margin: 10px 0px;*/
-
   border:0;
-
   background-color:#0000ff;
 }
 .loginLabel {
-  /*font-family: "Pinyon Script";*/
   color: rgb(0,0,255);
   font-weight: 700;
-  /*font-size: 1.700rem;*/
   font-size: 6vmin;
   font-style: normal;
   text-decoration: none;
@@ -124,7 +111,6 @@ form {
   text-align: center;
 }
 .loginError {
-  /*font-family: "Pinyon Script";*/
   color: rgb(255,0,0);
   font-weight: 700;
   font-size: 8rem;
@@ -135,7 +121,6 @@ form {
   text-align: center;
 }
 .downloadText {
-  /*font-family: "Pinyon Script";*/
   color: rgb(255,255,255);
   font-weight: 700;
   font-size: 1.000rem;
