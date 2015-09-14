@@ -12,7 +12,7 @@ if(isset($_POST['sub']))
 		header('LOCATION:upload.php');
 		die();
 	}
-	if($password !== 'password')
+	if($password !== $expectedPassword)
 	{
 		$passError = 'Invalid Password';
 	}
