@@ -1,10 +1,13 @@
 <!DOCTYPE html>
- 
+<?php
+	include '../config.php';
+	include 'session.php';
+?>
 <html>
  
 <head>
  
-    <title>Lee Hui Xin &amp; Philipp Mundhenk</title>
+    <title><?php echo $title; ?></title>
 	<!-- jQuery, -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
@@ -20,7 +23,7 @@
 		    height:auto;
 		    width:20%;
 
-		    background-image:url('upload.png');
+		    background-image:url('../icons/upload.png');
     		background-repeat:no-repeat;
    			background-position:left top;  padding-left:15px;
 		}
@@ -34,29 +37,23 @@
         text-align: center;
 		}
 	</style>
- 
 </head>
  
 <body>
- 
-	<!-- <h2 class="titleLine" dir="ltr">Lee Hui Xin &amp; Philipp Mundhenk</h2> -->
-
-  <div class="fotorama" data-autoplay="true" data-fit="cover" data-loop="true" data-allowfullscreen="native">
-      <?php 
-      $path    = 'uploads';
-      $files = scandir($path, SCANDIR_SORT_DESCENDING); 
-      foreach ($files as &$f) {
-        if($f != "." && $f != "..")
-        {
-          //conventional:
-          // echo "<img src=\"$path/$f\"><br/>";
-          //lazy:
-          echo "<a href=\"$path/$f\"></a><br/>";
-        }
-      }
-    ?>
+	<div class="fotorama" data-autoplay="true" data-fit="cover" data-loop="true" data-allowfullscreen="native">
+		<?php 
+			$path    = '../$photos_dir';
+				$files = scandir($path, SCANDIR_SORT_DESCENDING); 
+				foreach ($files as &$f) {
+				if($f != "." && $f != "..")
+				{
+					//conventional:
+					// echo "<img src=\"$path/$f\"><br/>";
+					//lazy:
+					echo "<a href=\"$path/$f\"></a><br/>";
+				}
+			}
+		?>
 	</div>
- 
 </body>
- 
 </html>
