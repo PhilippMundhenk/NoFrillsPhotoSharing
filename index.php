@@ -3,6 +3,12 @@
 	session_start();
 	$pw = $passError = '';
 	$expectedPassword = $password;
+	if(!$use_password)
+	{
+		$_SESSION['login'] = true;
+		header('LOCATION:php/upload.php');
+		die();
+	}
 	if(isset($_POST['sub']))
 	{
 		$pw = $_POST['password'];
