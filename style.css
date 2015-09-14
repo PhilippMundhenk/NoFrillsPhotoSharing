@@ -1,0 +1,160 @@
+.fileToUpload{
+  height:auto;
+  width:20%;
+
+  background-image:url('upload.png');
+  background-repeat:no-repeat;
+  background-position:left top;  padding-left:15px;
+}
+.titleLine {
+  font-family: "Pinyon Script";
+  color: rgb(0,0,255);
+  font-weight: 700;
+  font-size: 1.700rem;
+  font-size: 6vmin;
+  font-style: normal;
+  text-align: center;
+}
+.tg  {
+  border-collapse:collapse;
+  border-spacing:0;
+  border:0;
+}
+.tg td{
+  padding:0px 5px;
+  border-style:solid;
+  border-width:0px;
+  overflow:hidden;
+  word-break:normal;
+  vertical-align:middle;
+  border:0;
+}
+.th{
+  border:0;
+  padding:0px 5px;
+  border-style:solid;
+  border-width:0px;
+  overflow:hidden;
+  word-break:normal;
+  background-color:#0000ff;
+  vertical-align:middle;
+}
+.uploadText {
+  /*font-family: "Pinyon Script";*/
+  color: rgb(255,255,255);
+  font-weight: 700;
+  font-size: 1.000rem;
+  font-style: normal;
+  /*text-decoration: underline;*/
+  margin: 10px 0px; 
+}
+.progress {
+  /*font-family: "Pinyon Script";*/
+  color: rgb(255,0,0);
+  font-weight: 700;
+  font-size: 1.000rem;
+  font-style: normal;
+  /*text-decoration: underline;*/
+  margin: 10px 0px;
+  text-align: center;
+}
+form {
+  display: inline;
+}
+.image-upload > input
+{
+  display: none;
+}
+.uploadLabel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.uploadIcon {
+  vertical-align: middle;
+}
+.myButton {
+  vertical-align: middle;
+}
+.loginPage {
+  width: 100%;
+  max-width: 100%;
+}
+.loginButton {
+  vertical-align: middle;
+  text-align: center;
+}
+.loginButtonButton {
+  border: solid 0px rgb(0,0,255);
+  color: rgb(255,255,255);
+  border-radius:0px;
+  background: rgb(0,0,255);
+
+  font-weight: 700;
+  font-size: 8rem;
+  font-size: 6vmin;
+  font-style: normal;
+  /*text-decoration: underline;*/
+  margin: 10px 0px; 
+}
+.loginIcon {
+  /*height:auto;
+  width:5%;*/
+  vertical-align: middle;
+  padding:0px 5px;
+  /*margin: 10px 0px;*/
+
+  border:0;
+
+  background-color:#0000ff;
+}
+.loginLabel {
+  /*font-family: "Pinyon Script";*/
+  color: rgb(0,0,255);
+  font-weight: 700;
+  /*font-size: 1.700rem;*/
+  font-size: 6vmin;
+  font-style: normal;
+  text-decoration: none;
+  margin: 10px 0px; 
+  text-align: center;
+}
+.loginForm {
+  text-align: center;
+}
+.loginError {
+  /*font-family: "Pinyon Script";*/
+  color: rgb(255,0,0);
+  font-weight: 700;
+  font-size: 8rem;
+  font-size: 6vmin;
+  font-style: normal;
+  text-decoration: none;
+  margin: 10px 0px; 
+  text-align: center;
+}
+.downloadText {
+  /*font-family: "Pinyon Script";*/
+  color: rgb(255,255,255);
+  font-weight: 700;
+  font-size: 1.000rem;
+  font-style: normal;
+  text-decoration: none;
+  margin: 10px 0px; 
+}
+.downloadIcon {
+  vertical-align: middle;
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
