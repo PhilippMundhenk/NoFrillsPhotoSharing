@@ -6,10 +6,6 @@ I tested a few apps, but not all are available for all platforms, some do requir
 As I needed none of all the extra functions these apps offered and already have a server available, I decided to quickly hack together a website where my guests can upload and download their photos.
 To ensure that not the whole world has access, I added some simple password protection.
 
-## work in progress!
-This project is still heavily under development.
-The minimal set of functions is functional, however.
-
 ## Installation
 Simply download the files in this repository and place it somewhere into a serveable directory in your PHP server.
 
