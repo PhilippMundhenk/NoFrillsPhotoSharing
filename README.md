@@ -1,3 +1,5 @@
+[![GitHub release](https://img.shields.io/github/release/PhilippMundhenk/NoFrillsPhotoSharing.svg)](https://github.com/PhilippMundhenk/NoFrillsPhotoSharing/releases) [![GitHub issues](https://img.shields.io/github/issues/PhilippMundhenk/NoFrillsPhotoSharing.svg)](https://github.com/PhilippMundhenk/NoFrillsPhotoSharing/issues) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/PhilippMundhenk/NoFrillsPhotoSharing/blob/master/LICENSE)
+
 **based on [HTML5-Photo-Upload](https://github.com/DynamsoftRD/HTML5-Photo-Upload) and [Fotorama](http://fotorama.io/) as gallery** 
 
 # NoFrillsPhotoSharing
